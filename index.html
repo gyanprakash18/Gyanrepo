@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gyan Prakash Kumar | Software Engineer &amp; Full Stack Developer</title>
+<meta name="description" content="Gyan Prakash Kumar — Software Engineer, Full Stack Developer and AI/ML enthusiast. B.Tech ECE undergraduate building AI-powered web systems, IoT solutions and computer vision projects.">
+<meta name="keywords" content="Software Engineer, Full Stack Developer, Python Developer, AI Engineer, Machine Learning Engineer, Portfolio, Gyan Prakash Kumar">
+<meta name="author" content="Gyan Prakash Kumar">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gyanprakash18.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gyan Prakash Kumar | Software Engineer & Full Stack Developer">
+<meta property="og:description" content="Portfolio of Gyan Prakash Kumar — Full Stack Development, AI/ML and IoT projects.">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:url" content="https://gyanprakash18.github.io/">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gyan Prakash Kumar | Software Engineer & Full Stack Developer">
+<meta name="twitter:description" content="Portfolio of Gyan Prakash Kumar — Full Stack Development, AI/ML and IoT projects.">
+<meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gyan Prakash Kumar",
+  "jobTitle": "Software Engineer & Full Stack Developer",
+  "description": "B.Tech Electronics & Communication Engineering undergraduate specializing in Full Stack Web Development and Artificial Intelligence.",
+  "url": "https://gyanprakash18.github.io/",
+  "email": "gyanprakashranjan31@gmail.com",
+  "sameAs": [
+    "https://github.com/gyanprakash18",
+    "https://www.linkedin.com/in/gyan-prakash-kumar-0b4759237/"
+  ]
+}
+</script>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%2306B6D4%22>G</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- AOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+
+<!-- Bootstrap (grid/utilities only, design system is custom) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader" aria-hidden="true"><div class="loader-mark">GPK</div></div>
+
+<!-- Scroll progress -->
+<div id="scroll-progress"></div>
+
+<!-- Custom cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- Toast stack -->
+<div id="toast-stack" aria-live="polite"></div>
+
+<!-- ============================ NAVBAR ============================ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">Gyan<span>.dev</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero" id="home">
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="hero-greeting"><span class="wave">👋</span> Hi there, I'm</p>
+      <h1 class="hero-name">Gyan Prakash <span class="highlight">Kumar</span></h1>
+      <div class="hero-typed-wrap">I build <span id="typed-text"></span></div>
+      <p class="hero-summary">
+        Computer Science enthusiast and Electronics &amp; Communication Engineering undergraduate with
+        hands-on experience in Full Stack Web Development and Artificial Intelligence through academic
+        projects and internships. Passionate about software engineering, AI, web technologies,
+        cybersecurity and problem solving.
+      </p>
+      <div class="hero-cta">
+        <a href="#resume" class="btn btn-primary"><i class="fa-solid fa-download"></i> Download Resume</a>
+        <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-paper-plane"></i> Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/gyanprakash18" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/gyan-prakash-kumar-0b4759237/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:gyanprakashranjan31@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-badge glass b1"><i class="fa-solid fa-code"></i> Full Stack</div>
+      <div class="orbit-badge glass b2"><i class="fa-solid fa-brain"></i> AI / ML</div>
+      <div class="orbit-badge glass b3"><i class="fa-solid fa-microchip"></i> IoT</div>
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="assets/images/profile.jpg" alt="Gyan Prakash Kumar"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="avatar-fallback">GPK</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+    <span class="mouse"></span> SCROLL
+  </a>
+</section>
+
+<!-- ============================ ABOUT ============================ -->
+<section id="about">
+  <div class="container">
+    <span class="section-eyebrow">About Me</span>
+    <h2 class="section-title">Getting to know me</h2>
+    <p class="section-sub">A quick introduction to who I am, what drives me, and how my journey has shaped the engineer I'm becoming.</p>
+
+    <div class="about-grid">
+      <div class="glass about-card" data-aos="fade-right">
+        <p>
+          I'm an Electronics &amp; Communication Engineering undergraduate at Government Engineering College
+          Vaishali, under Bihar Engineering University, with a strong pull toward software — particularly
+          full stack web development and applied AI. What started as curiosity about how systems talk to
+          each other has turned into building real projects across web, AI and embedded systems.
+        </p>
+        <p>
+          My career objective is simple: become a software engineer who can move fluidly between backend
+          logic, AI-driven features, and the hardware/IoT layer where software meets the physical world —
+          then use that range to build systems that are genuinely useful, not just technically impressive.
+        </p>
+        <div class="about-facts">
+          <div><span>Degree</span><strong>B.Tech, ECE</strong></div>
+          <div><span>University</span><strong>Bihar Engineering University</strong></div>
+          <div><span>Duration</span><strong>2023 – 2027</strong></div>
+          <div><span>Location</span><strong>Bihar, India</strong></div>
+        </div>
+      </div>
+
+      <div data-aos="fade-left">
+        <div class="strengths">
+          <div class="strength-item glass">
+            <div class="strength-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <div>
+              <h4>Full-range builder</h4>
+              <p>Comfortable across the stack — from PHP/Flask backends and MySQL/MongoDB data layers to responsive Bootstrap frontends.</p>
+            </div>
+          </div>
+          <div class="strength-item glass">
+            <div class="strength-icon"><i class="fa-solid fa-robot"></i></div>
+            <div>
+              <h4>AI-first thinking</h4>
+              <p>I look for where machine learning and computer vision can replace manual, repetitive work in the systems I build.</p>
+            </div>
+          </div>
+          <div class="strength-item glass">
+            <div class="strength-icon"><i class="fa-solid fa-microchip"></i></div>
+            <div>
+              <h4>Hardware-aware</h4>
+              <p>My ECE background means I don't stop at software — I understand the embedded and IoT layer these systems often depend on.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass" style="padding:30px;">
+          <h4 style="margin-bottom:20px;">My Journey</h4>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="t-year">2023</span>
+              <h4>Started B.Tech in ECE</h4>
+              <p>Enrolled at Government Engineering College Vaishali, Bihar Engineering University, and began exploring programming alongside coursework.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="t-year">2024 – 2025</span>
+              <h4>Internships &amp; Certifications</h4>
+              <p>Completed an Embedded Systems internship at RCPL, plus Data Science and Python programming tracks with Cisco Networking Academy and Internshala.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="t-year">2025 – 2026</span>
+              <h4>Full Stack &amp; AI Projects</h4>
+              <p>Built an AI-powered Smart Campus Management System, a Face Recognition Attendance System, and an IoT Smart Home Automation System.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="t-year">2027 (Expected)</span>
+              <h4>Graduation</h4>
+              <p>Set to graduate and move into a full-time Software Engineering / AI role.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="counters">
+      <div class="glass counter-card" data-aos="zoom-in">
+        <div class="counter-num" data-count="4">0</div>
+        <div class="counter-label">Projects Built</div>
+      </div>
+      <div class="glass counter-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="counter-num" data-count="3">0</div>
+        <div class="counter-label">Internships</div>
+      </div>
+      <div class="glass counter-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="counter-num" data-count="3">0</div>
+        <div class="counter-label">Certifications</div>
+      </div>
+      <div class="glass counter-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="counter-num" data-count="10" data-suffix="+">0</div>
+        <div class="counter-label">Technologies</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ SKILLS ============================ -->
+<section id="skills" style="background:var(--bg-elevated);">
+  <div class="container">
+    <span class="section-eyebrow">Skills</span>
+    <h2 class="section-title">What I work with</h2>
+    <p class="section-sub">A practical toolkit spanning programming languages, web technologies, databases, AI/data tooling and the professional skills that hold it all together.</p>
+
+    <div class="skills-tabs" role="tablist" data-aos="fade-up">
+      <button class="skill-tab active" data-target="panel-programming">Programming</button>
+      <button class="skill-tab" data-target="panel-frontend">Frontend</button>
+      <button class="skill-tab" data-target="panel-backend">Backend</button>
+      <button class="skill-tab" data-target="panel-databases">Databases</button>
+      <button class="skill-tab" data-target="panel-tools">Dev Tools</button>
+      <button class="skill-tab" data-target="panel-ai">AI &amp; Data</button>
+      <button class="skill-tab" data-target="panel-pro">Professional</button>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-panel active" id="panel-programming">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Java</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Python</span><span>90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>C</span><span>75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>C++</span><span>78%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>JavaScript</span><span>82%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>PHP</span><span>72%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="72"></div></div></div>
+      </div>
+
+      <div class="skill-panel" id="panel-frontend">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>HTML5</span><span>92%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>CSS3</span><span>88%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Bootstrap</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Responsive Design</span><span>86%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="86"></div></div></div>
+      </div>
+
+      <div class="skill-panel" id="panel-backend">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>PHP</span><span>75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Flask</span><span>80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+      </div>
+
+      <div class="skill-panel" id="panel-databases">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>MySQL</span><span>82%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>MongoDB</span><span>76%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="76"></div></div></div>
+      </div>
+
+      <div class="skill-panel" id="panel-tools">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Git</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>GitHub</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>VS Code</span><span>90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+      </div>
+
+      <div class="skill-panel" id="panel-ai">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Machine Learning</span><span>78%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Artificial Intelligence</span><span>80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Data Science</span><span>76%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="76"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Computer Vision</span><span>74%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="74"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Embedded Systems</span><span>77%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="77"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>IoT</span><span>79%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="79"></div></div></div>
+      </div>
+
+      <div class="skill-panel" id="panel-pro">
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Problem Solving</span><span>90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Communication</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Leadership</span><span>80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Teamwork</span><span>88%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div></div>
+        <div class="glass skill-bar-item"><div class="skill-bar-top"><span>Quick Learning</span><span>92%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROJECTS ============================ -->
+<section id="projects">
+  <div class="container">
+    <span class="section-eyebrow">Projects</span>
+    <h2 class="section-title">Things I've built</h2>
+    <p class="section-sub">A mix of AI, full stack web, and IoT projects — each one built to solve a real, specific problem rather than just demonstrate a technology.</p>
+
+    <div class="filter-bar" data-aos="fade-up">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="iot">IoT</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="glass project-card" data-category="ai web" data-aos="fade-up">
+        <div class="project-media"><i class="fa-solid fa-school"></i></div>
+        <div class="project-body">
+          <div class="project-tags"><span>Flask</span><span>SQLAlchemy</span><span>AI</span><span>JWT</span></div>
+          <h3>AI-Powered Smart Campus Management System</h3>
+          <p>A campus management platform combining role-based access control with AI-assisted modules, built for educational institutions to manage students, staff and operations in one place.</p>
+          <ul class="project-features">
+            <li>JWT authentication with token blacklisting</li>
+            <li>Role-based access control (admin, staff, student)</li>
+            <li>Password reset &amp; response-time middleware</li>
+            <li>Automated database backup scripting</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/gyanprakash18" class="btn btn-outline btn-sm" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card" data-category="ai" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-media"><i class="fa-solid fa-user-check"></i></div>
+        <div class="project-body">
+          <div class="project-tags"><span>Python</span><span>OpenCV</span><span>Computer Vision</span></div>
+          <h3>Face Recognition Attendance System</h3>
+          <p>An automated attendance system that uses real-time face recognition to identify individuals and log attendance, removing the need for manual roll calls.</p>
+          <ul class="project-features">
+            <li>Real-time face detection &amp; recognition</li>
+            <li>Automated attendance logging</li>
+            <li>Exportable attendance records</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/gyanprakash18" class="btn btn-outline btn-sm" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card" data-category="iot" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-media"><i class="fa-solid fa-house-signal"></i></div>
+        <div class="project-body">
+          <div class="project-tags"><span>IoT</span><span>Embedded Systems</span><span>Sensors</span></div>
+          <h3>IoT Smart Home Automation System</h3>
+          <p>A connected home automation setup that lets users monitor and control appliances remotely, built on embedded hardware paired with sensor-driven automation logic.</p>
+          <ul class="project-features">
+            <li>Remote appliance monitoring &amp; control</li>
+            <li>Sensor-driven automation rules</li>
+            <li>Embedded systems integration</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/gyanprakash18" class="btn btn-outline btn-sm" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-media"><i class="fa-solid fa-id-card"></i></div>
+        <div class="project-body">
+          <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>This site — a fully responsive, glassmorphic portfolio built with pure HTML, CSS and JavaScript, showcasing projects, skills and experience in one place.</p>
+          <ul class="project-features">
+            <li>Dark / light mode toggle</li>
+            <li>Scroll-triggered animations</li>
+            <li>Fully responsive, accessible layout</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/gyanprakash18" class="btn btn-outline btn-sm" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EXPERIENCE ============================ -->
+<section id="experience" style="background:var(--bg-elevated);">
+  <div class="container">
+    <span class="section-eyebrow">Experience</span>
+    <h2 class="section-title">Where I've worked</h2>
+    <p class="section-sub">Internships that gave me hands-on exposure to embedded systems, data science, and applied Python programming.</p>
+
+    <div class="exp-list">
+      <div class="glass exp-item" data-aos="fade-up">
+        <div class="exp-icon"><i class="fa-solid fa-microchip"></i></div>
+        <div>
+          <div class="exp-role">Embedded Systems Intern</div>
+          <div class="exp-org">RCPL</div>
+          <p class="exp-desc">Worked hands-on with IoT and embedded systems, contributing to hardware-software integration tasks and gaining practical exposure to sensor-based automation.</p>
+        </div>
+      </div>
+      <div class="glass exp-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="exp-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <div>
+          <div class="exp-role">Data Science Essentials with Python</div>
+          <div class="exp-org">Cisco Networking Academy</div>
+          <p class="exp-desc">Completed a structured track covering the fundamentals of data science using Python, including data handling and analysis techniques.</p>
+        </div>
+      </div>
+      <div class="glass exp-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="exp-icon"><i class="fa-brands fa-python"></i></div>
+        <div>
+          <div class="exp-role">Programming in Python with AI</div>
+          <div class="exp-org">Internshala</div>
+          <p class="exp-desc">Trained in Python programming with an applied focus on artificial intelligence concepts and practical implementation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EDUCATION ============================ -->
+<section id="education">
+  <div class="container">
+    <span class="section-eyebrow">Education</span>
+    <h2 class="section-title">Academic background</h2>
+    <p class="section-sub">My formal education in Electronics &amp; Communication Engineering, which anchors both my technical foundation and my interest in software.</p>
+
+    <div class="glass edu-card" data-aos="fade-up">
+      <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+      <div>
+        <h3>Bachelor of Technology — Electronics &amp; Communication Engineering</h3>
+        <div class="edu-meta">Government Engineering College Vaishali</div>
+        <div class="edu-sub">Bihar Engineering University · 2023 – 2027</div>
+        <div class="edu-stats">
+          <div><span>CGPA</span><strong>7.5 / 10</strong></div>
+          <div><span>Location</span><strong>Bihar, India</strong></div>
+          <div><span>Status</span><strong>In Progress</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CERTIFICATIONS ============================ -->
+<section id="certifications" style="background:var(--bg-elevated);">
+  <div class="container">
+    <span class="section-eyebrow">Certifications</span>
+    <h2 class="section-title">Continuous learning</h2>
+    <p class="section-sub">Structured courses I've completed to strengthen my skills in data science, embedded systems and AI-driven Python programming.</p>
+
+    <div class="cert-grid">
+      <div class="glass cert-card" data-aos="fade-up">
+        <div class="cert-icon"><i class="fa-solid fa-chart-simple"></i></div>
+        <h4>Data Science Essentials with Python</h4>
+        <p>Cisco Networking Academy</p>
+      </div>
+      <div class="glass cert-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+        <h4>Embedded Systems</h4>
+        <p>RCPL Internship Track</p>
+      </div>
+      <div class="glass cert-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+        <h4>Programming in Python with AI</h4>
+        <p>Internshala</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ACHIEVEMENTS ============================ -->
+<section id="achievements">
+  <div class="container">
+    <span class="section-eyebrow">Achievements</span>
+    <h2 class="section-title">Highlights along the way</h2>
+    <p class="section-sub">What I'm most proud of so far in my journey as a developer and engineer-in-training.</p>
+
+    <div class="achieve-grid">
+      <div class="glass achieve-card" data-aos="fade-up">
+        <div class="achieve-icon"><i class="fa-solid fa-diagram-project"></i></div>
+        <h4>Multiple AI &amp; Full Stack Projects</h4>
+        <p>Developed and shipped several complete projects spanning AI, web and IoT domains.</p>
+      </div>
+      <div class="glass achieve-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="achieve-icon"><i class="fa-solid fa-brain"></i></div>
+        <h4>Hands-on AI &amp; ML Experience</h4>
+        <p>Practical experience applying machine learning and AI techniques within real, working systems.</p>
+      </div>
+      <div class="glass achieve-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="achieve-icon"><i class="fa-solid fa-database"></i></div>
+        <h4>Strong Database Knowledge</h4>
+        <p>Comfortable designing and working with both relational (MySQL) and NoSQL (MongoDB) databases.</p>
+      </div>
+      <div class="glass achieve-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="achieve-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h4>Cybersecurity Fundamentals</h4>
+        <p>Working knowledge of core cybersecurity principles applied throughout project development.</p>
+      </div>
+      <div class="glass achieve-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="achieve-icon"><i class="fa-solid fa-people-group"></i></div>
+        <h4>Teamwork &amp; Leadership</h4>
+        <p>Excellent collaborative and leadership skills developed through internships and team projects.</p>
+      </div>
+      <div class="glass achieve-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="achieve-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h4>Quick, Applied Learner</h4>
+        <p>Consistently picks up new tools and concepts fast enough to apply them directly to real projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ RESUME ============================ -->
+<section id="resume" style="background:var(--bg-elevated);">
+  <div class="container">
+    <span class="section-eyebrow">Resume</span>
+    <h2 class="section-title">My professional resume</h2>
+    <p class="section-sub">A full overview of my education, skills, projects and experience in a single, downloadable document.</p>
+
+    <div class="glass resume-panel" data-aos="zoom-in">
+      <div style="display:flex; gap:24px; align-items:center;">
+        <div class="resume-icon-big"><i class="fa-solid fa-file-lines"></i></div>
+        <div class="r-left">
+          <h3>Gyan Prakash Kumar — Resume</h3>
+          <p>View it inline or download a copy to keep — updated with my latest projects, certifications and internships.</p>
+        </div>
+      </div>
+      <div class="resume-actions">
+        <a href="assets/resume-gyan-prakash-kumar.pdf" class="btn btn-outline" target="_blank" rel="noopener"><i class="fa-regular fa-eye"></i> View Resume</a>
+        <a href="assets/resume-gyan-prakash-kumar.pdf" class="btn btn-primary" download><i class="fa-solid fa-download"></i> Download PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONTACT ============================ -->
+<section id="contact">
+  <div class="container">
+    <span class="section-eyebrow">Contact</span>
+    <h2 class="section-title">Let's build something</h2>
+    <p class="section-sub">Have a project, an opportunity, or just want to say hello? My inbox is open.</p>
+
+    <div class="contact-grid">
+      <div class="glass contact-info-card" data-aos="fade-right">
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-regular fa-envelope"></i></div>
+          <div><h4>Email</h4><a href="mailto:gyanprakashranjan31@gmail.com">gyanprakashranjan31@gmail.com</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><h4>Location</h4><p>Bihar, India</p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-brands fa-github"></i></div>
+          <div><h4>GitHub</h4><a href="https://github.com/gyanprakash18" target="_blank" rel="noopener">github.com/gyanprakash18</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div><h4>LinkedIn</h4><a href="https://www.linkedin.com/in/gyan-prakash-kumar-0b4759237/" target="_blank" rel="noopener">linkedin.com/in/gyan-prakash-kumar</a></div>
+        </div>
+        <div class="contact-map">
+          <iframe src="https://maps.google.com/maps?q=Bihar,India&t=&z=7&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Map showing Bihar, India"></iframe>
+        </div>
+      </div>
+
+      <form class="glass contact-form" id="contactForm" data-aos="fade-left" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="you@email.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-group">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" placeholder="Tell me a bit about your project or question..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+          <i class="fa-regular fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#home" class="logo">Gyan<span>.dev</span></a>
+        <p>Software Engineer &amp; Full Stack Developer building AI-powered web and IoT systems, one project at a time.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Follow</h4>
+        <div class="hero-socials">
+          <a href="https://github.com/gyanprakash18" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/gyan-prakash-kumar-0b4759237/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:gyanprakashranjan31@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Gyan Prakash Kumar. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JavaScript.</p>
+    </div>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
