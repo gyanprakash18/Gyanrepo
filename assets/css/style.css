@@ -668,7 +668,7 @@ footer { padding: 60px 0 30px; border-top: 1px solid var(--card-border); margin-
 
 
 /* Magnetic glow on buttons */
-.btn { position: relative; overflow: hidden; }
+/* .btn { position: relative; overflow: hidden; }
 .btn::after {
   content: '';
   position: absolute;
@@ -681,10 +681,10 @@ footer { padding: 60px 0 30px; border-top: 1px solid var(--card-border); margin-
   opacity: 0;
   pointer-events: none;
 }
-.btn:hover::after { transform: translate(-50%, -50%) scale(1); opacity: 0.15; }
+.btn:hover::after { transform: translate(-50%, -50%) scale(1); opacity: 0.15; } */
 
 /* Cursor-following spotlight on glass cards */
-.glass {
+/* .glass {
   position: relative;
   overflow: hidden;
 }
@@ -701,11 +701,11 @@ footer { padding: 60px 0 30px; border-top: 1px solid var(--card-border); margin-
   transition: opacity 0.3s ease;
   z-index: 0;
 }
-.glass:hover::before { opacity: 1; }
+.glass:hover::before { opacity: 1; } */
 
 
 /* Animated background blobs */
-body::before, body::after {
+/* body::before, body::after {
   content: '';
   position: fixed;
   width: 500px; height: 500px;
@@ -722,6 +722,6 @@ body::after  { background: var(--accent); bottom: -100px; right: -100px; animati
 @keyframes blobMove {
   0%, 100% { transform: translate(0,0) scale(1); }
   50% { transform: translate(60px, 40px) scale(1.15); }
-}
+} */
 
 
