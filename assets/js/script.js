@@ -317,37 +317,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-/* ---------- Cursor-following spotlight on cards ---------- */
-  document.querySelectorAll('.glass').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      card.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
-      card.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
-    });
-  });
+// /* ---------- Cursor-following spotlight on cards ---------- */
+//   document.querySelectorAll('.glass').forEach(card => {
+//     card.addEventListener('mousemove', (e) => {
+//       const rect = card.getBoundingClientRect();
+//       card.style.setProperty('--mouse-x', `${e.clientX - rect.left}px`);
+//       card.style.setProperty('--mouse-y', `${e.clientY - rect.top}px`);
+//     });
+//   });
 /* ---------- 3D tilt on project cards ---------- */
-  document.querySelectorAll('.project-card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      const rotateX = ((y - rect.height / 2) / (rect.height / 2)) * -6;
-      const rotateY = ((x - rect.width / 2) / (rect.width / 2)) * 6;
-      card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
-    });
-    card.addEventListener('mouseleave', () => { card.style.transform = ''; });
-  });
+  // document.querySelectorAll('.project-card').forEach(card => {
+  //   card.addEventListener('mousemove', (e) => {
+  //     const rect = card.getBoundingClientRect();
+  //     const x = e.clientX - rect.left;
+  //     const y = e.clientY - rect.top;
+  //     const rotateX = ((y - rect.height / 2) / (rect.height / 2)) * -6;
+  //     const rotateY = ((x - rect.width / 2) / (rect.width / 2)) * 6;
+  //     card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+  //   });
+  //   card.addEventListener('mouseleave', () => { card.style.transform = ''; });
+  // });
 
 
 /* ---------- Magnetic glow on buttons ---------- */
-  document.querySelectorAll('.btn').forEach(btn => {
-    btn.addEventListener('mousemove', (e) => {
-      const rect = btn.getBoundingClientRect();
-      btn.style.setProperty('--btn-x', `${e.clientX - rect.left}px`);
-      btn.style.setProperty('--btn-y', `${e.clientY - rect.top}px`);
-    });
-  });
+  // document.querySelectorAll('.btn').forEach(btn => {
+  //   btn.addEventListener('mousemove', (e) => {
+  //     const rect = btn.getBoundingClientRect();
+  //     btn.style.setProperty('--btn-x', `${e.clientX - rect.left}px`);
+  //     btn.style.setProperty('--btn-y', `${e.clientY - rect.top}px`);
+  //   });
+  // });
 
 
-});
+// });
 
